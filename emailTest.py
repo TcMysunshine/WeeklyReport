@@ -7,7 +7,7 @@ from email.mime.multipart import MIMEMultipart
 class email:
     #发送单纯的文本
     def sendTextEmail(self):
-        authcode = '1996622tc'
+        authcode = ''#授权码
         sender = 'chenhao15887805462@163.com'
         receiver = '2229238008@qq.com'
         subject = 'Python发送邮件测试'
@@ -28,7 +28,7 @@ class email:
             s.quit()
     #发送带附件的
     def SendAttEmail(self):
-        authcode = '1996622tc'
+        authcode = ''#授权码
         sender = 'chenhao15887805462@163.com'
         receiver = '2229238008@qq.com'
         subject = 'Python发送邮件测试'
